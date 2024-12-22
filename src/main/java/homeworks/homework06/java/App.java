@@ -1,4 +1,4 @@
-package ru.App.java;
+package homeworks.homework06.java;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
