@@ -1,0 +1,16 @@
+Все автомобили:
+Car{colour="Red", model="Toyota", licensePlate=12345, price=100000,00, mileage=20000}
+Car{colour="Blue", model"Ford", licensePlate=56789, price=150000,00, mileage=30000}
+Car{colour="Black", model="Honda", licensePlate=98765, price=200000,00, mileage=40000}
+
+Автомобиль с номером 56789 удален:
+Car{colour="Blue", model="Ford", licensePlate=56789, price=150000,00, mileage=30000}
+
+Автомобили с цветом Black:
+Car{colour="Black", make="Honda", licensePlate=98765, price=200000,00, mileage=40000}
+
+Автомобили отсортированные по стоимости:
+Car{colour="Red", model="Toyota", licensePlate=12345, price=100000,00, mileage=20000}
+Car{colour="Black", model="Honda", licensePlate=98765, price=200000,00, mileage=40000}
+
+Средняя стоимость автомобилей: 150000.0 рублей
