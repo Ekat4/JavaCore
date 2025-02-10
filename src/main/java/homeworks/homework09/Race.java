@@ -1,8 +1,7 @@
+package homeworks.homework09;
 
-        package homeworks.homework09;
-        import java.util.ArrayList;
-        import java.util.List;
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Race {
     private String name; // Название гонки

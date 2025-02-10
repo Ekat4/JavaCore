@@ -1,10 +1,5 @@
 package homeworks.homework09;
 
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.ArrayList;
-import java.util.List;
-
 public class App {
     public static void main(String[] args) {
         // Создаем автомобили
