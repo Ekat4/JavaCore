@@ -1,0 +1,12 @@
+Garage:
+PerformanceCar Car [brand=Ferrari, model=488, year=2020, horsepower=650, acceleration=3, suspension=11, durability=100], addOns=[]
+PerformanceCar Car [brand=Lamborghini, model=Huracan, year=2021, horsepower=690, acceleration=3, suspension=10, durability=90], addOns=[]
+ShowCar Car [brand=McLaren, model=720S, year=2020, horsepower=710, acceleration=2, suspension=12, durability=80], stars=0
+
+
+Информация о гонке:
+Race: Monaco Grand Prix
+Participants:
+PerformanceCar Car [brand=Ferrari, model=488, year=2020, horsepower=650, acceleration=3, suspension=11, durability=100], addOns=[]
+PerformanceCar Car [brand=Lamborghini, model=Huracan, year=2021, horsepower=690, acceleration=3, suspension=10, durability=90], addOns=[]
+ShowCar Car [brand=McLaren, model=720S, year=2020, horsepower=710, acceleration=2, suspension=12, durability=80], stars=0
