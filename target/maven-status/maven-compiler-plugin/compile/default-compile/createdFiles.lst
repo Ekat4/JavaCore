@@ -1,0 +1,10 @@
+ru/innopolis/springaop/SpringAopApplication.class
+ru/innopolis/springaop/aop/MyAspect.class
+ru/innopolis/springaop/aop/Pointcuts.class
+ru/innopolis/springaop/util/CustomResponse.class
+ru/innopolis/springaop/config/ApplicationConfig.class
+ru/innopolis/springaop/controller/BookController.class
+ru/innopolis/springaop/model/Book.class
+ru/innopolis/springaop/repository/BookRepository.class
+ru/innopolis/springaop/service/BookService.class
+ru/innopolis/springaop/util/CustomStatus.class

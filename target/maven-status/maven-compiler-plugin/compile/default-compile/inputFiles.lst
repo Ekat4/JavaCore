@@ -1,0 +1,10 @@
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/SpringAopApplication.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/aop/MyAspect.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/aop/Pointcuts.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/config/ApplicationConfig.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/controller/BookController.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/model/Book.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/repository/BookRepository.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/service/BookService.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/util/CustomResponse.java
+/Users/ekaterinalukoianova/Downloads/SpringAOPExample/src/main/java/ru/innopolis/springaop/util/CustomStatus.java
