@@ -1,10 +1,8 @@
 package ru.innopolis.StyleFit.service;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.innopolis.StyleFit.repositories.ResultRepository;
-
 import java.util.List;
 
 @Service
@@ -21,7 +19,7 @@ public class ResultAnalysisService {
         }
         // Вычисляем среднее значение
         return results.stream()
-                .mapToDouble(ru.innopolis.StyleFit.models.Result::getTotalWorkouts) // Предполагаем, что есть метод getTotalWorkouts
+                .mapToDouble(ru.innopolis.StyleFit.models.Result::getScore) // Используем getScore
                 .average()
                 .orElse(0.0); // Возвращаем 0, если не удалось вычислить среднее
     }

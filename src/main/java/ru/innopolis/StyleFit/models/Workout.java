@@ -11,26 +11,26 @@ public class Workout {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "client_id")
-    private Client client;
+
+        private Date workoutDate;
+
+        @ManyToOne
+        @JoinColumn(name = "client_id")
+        private Client client; // Убедитесь, что это поле есть
 
     @ManyToOne
     @JoinColumn(name = "trainer_id")
     private Trainer trainer;
 
-    private Date workoutDate;
-    private int totalWorkouts;
-
-    public Object getWorkoutDate() {
-        return null;
+    public Trainer getTrainer() {
+        return trainer;
     }
 
-    public Client getClient() {
-        return null;
+    public void setTrainer(Trainer trainer) {
+        this.trainer = trainer;
     }
 
     // Геттеры и сеттеры
-}
+    }
 
 

@@ -10,29 +10,35 @@ import java.util.Date;
 @Entity
 public class Result {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Автоматическая генерация идентификатора
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne // Указывает на связь с классом Athlete
-    private Athlete athlete; // Поле для хранения объекта Athlete
+    @ManyToOne
+    private Athlete athlete;
 
-    private String event; // Поле для события
-    private String score; // Поле для результата
-    private Date workoutDate; // Поле для даты тренировки
+    private String event;
+    private double score; // Изменено на double
+    private Date workoutDate;
 
-    // Конструктор без параметров (необходим для JPA)
     public Result() {
     }
 
-    // Конструктор с параметрами
-    public Result(Athlete athlete, String event, String score, Date workoutDate) {
+    public Result(Long id, Athlete athlete, String event, double score, Date workoutDate) {
+        this.id = id;
         this.athlete = athlete;
         this.event = event;
         this.score = score;
-        this.workoutDate = workoutDate; // Инициализация workoutDate
+        this.workoutDate = workoutDate;
+    }
+
+    public Result(long l, Long athleteId, double v) {
     }
 
     // Геттеры
+    public Long getId() {
+        return id;
+    }
+
     public Athlete getAthlete() {
         return athlete;
     }
@@ -41,12 +47,12 @@ public class Result {
         return event;
     }
 
-    public String getScore() {
-        return score;
+    public double getScore() {
+        return score; // Изменено на double
     }
 
     public Date getWorkoutDate() {
-        return workoutDate; // Геттер для workoutDate
+        return workoutDate;
     }
 
     // Сеттеры
@@ -58,21 +64,15 @@ public class Result {
         this.event = event;
     }
 
-    public void setScore(String score) {
+    public void setScore(double score) { // Изменено на double
         this.score = score;
     }
 
-    public void setWorkoutDate(Date workoutDate) { // Сеттер для workoutDate
+    public void setWorkoutDate(Date workoutDate) {
         this.workoutDate = workoutDate;
     }
 
-    // Метод для получения общего количества тренировок (можно уточнить логику)
-    public double getTotalWorkouts() {
-        return 0; // Здесь можно добавить логику для подсчета тренировок
-    }
-
-    // Геттер для id (если нужно)
-    public Long getId() {
-        return id;
+    public Object getTotalWorkouts() {
+        return null;
     }
 }

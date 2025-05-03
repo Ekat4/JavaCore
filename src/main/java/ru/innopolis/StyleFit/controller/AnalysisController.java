@@ -22,16 +22,13 @@ public class AnalysisController {
     private NotificationService notificationService;
 
     @PostMapping("/notify/result")
-    public ResponseEntity<String> notifyResultsUpdate(@RequestBody Result results) { // Замените Result на ваш класс
+    public ResponseEntity<String> notifyResultsUpdate(@RequestBody Result results) {
         Athlete athlete = results.getAthlete(); // Предполагая, что у вас есть метод getAthlete() в классе Result
         if (athlete != null) {
-            notificationService.sendResultsUpdate(athlete);
+            notificationService.sendResultsUpdate(athlete, results); // Передаем оба объекта
             return ResponseEntity.ok("Уведомление о результате отправлено.");
         } else {
             return ResponseEntity.badRequest().body("Спортсмен не найден.");
         }
     }
 }
-
-
-
