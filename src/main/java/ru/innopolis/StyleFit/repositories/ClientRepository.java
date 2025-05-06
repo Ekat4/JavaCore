@@ -14,3 +14,7 @@ public interface ClientRepository extends JpaRepository<Client, Long> {
     Optional<Client> findById(Long id);
     List<Client> findByWorkouts_WorkoutDate(Date date);
 }
+
+
+
+
