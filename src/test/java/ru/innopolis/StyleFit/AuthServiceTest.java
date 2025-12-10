@@ -1,4 +1,4 @@
-package ru.innopolis.Stylefit;
+package ru.innopolis.StyleFit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

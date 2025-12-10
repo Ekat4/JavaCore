@@ -1,4 +1,4 @@
-package ru.innopolis.Stylefit;
+package ru.innopolis.StyleFit;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,6 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import ru.innopolis.StyleFit.Application;
 import ru.innopolis.StyleFit.service.ClientService;
 
 @SpringBootTest(classes = Application.class)
